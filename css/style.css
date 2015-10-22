@@ -38,6 +38,9 @@ h1 {
 	font-weight: 700;
 	margin-bottom: 20px;
 }
+h1 span {
+	font-size: 60px;
+}
 h2 {
 	font-size: 28px;
 	margin-bottom: 15px;
@@ -135,21 +138,6 @@ blockquote {
 	vertical-align: middle;
 	min-height: 100%;
 	width: 100%;
-}
-.banner:after {
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background-color: rgba(0, 0, 0, 0.55);
-	content: "";
-}
-.banner-caption {
-	position: absolute;
-	top: 40%;
-	width: 100%;
-	z-index: 2;
 }
 .subfooter {
 	background-color: #fafafa;
@@ -277,15 +265,15 @@ blockquote {
 
 /* Sections
 ----------------------------------------------------------------------------- */
-.banner-caption h1,
-.banner-caption h2,
-.banner-caption h3,
-.banner-caption h4,
-.banner-caption h5,
-.banner-caption h6 {
+.carousel-caption h1,
+.carousel-caption h2,
+.carousel-caption h3,
+.carousel-caption h4,
+.carousel-caption h5,
+.carousel-caption h6 {
 	color: #ffffff;
 }
-.banner-caption h1 {
+.carousel-caption h1 {
 	font-size: 45px;
 }
 .subfooter p {
