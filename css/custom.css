@@ -39,3 +39,10 @@ File Description: Place here your custom CSS styles
     margin-left: 40px;
     margin-right: 40px;
 }
+.header .dropdown-menu {
+    background-color: rgba(144, 164, 208, 0.5);
+}
+
+.fixed-header-on .dropdown-menu {
+    background-color: rgba(50, 154, 234, 0.5);
+}
