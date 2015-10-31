@@ -46,3 +46,37 @@ File Description: Place here your custom CSS styles
 .fixed-header-on .dropdown-menu {
     background-color: rgba(50, 154, 234, 0.5);
 }
+
+/* manager page */
+.manager-box {
+    width: 820px;
+    margin: 50px auto;
+}
+
+.manager-box-title {
+    margin: 20px 0 40px;
+}
+
+.manager-box-items li{
+    float: left;
+    width: 244px;
+    text-align: center;
+    list-style: none;
+}
+
+.manager-box-items li em{
+    display: inline-block;
+}
+
+.manager-box-items li .title{
+    color: #55ACEE;
+    font-size: 1.3em;
+    padding: 32px 0 5px;
+}
+
+.manager-box-items .manager2 li{
+    width: 388px;
+}
+.manager-box-items .manager3 li {
+    width: 810px;
+}
