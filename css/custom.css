@@ -10,11 +10,6 @@ File Description: Place here your custom CSS styles
 [role=button] {
     cursor: pointer;
 }
-#carousel img{
-    height: 100%;
-    min-height: 100%;
-    width: 100%;
-}
 #carousel,.item,.active{height:100%;}
 .carousel-inner{height:100%;}
 .carousel-caption {
@@ -48,35 +43,38 @@ File Description: Place here your custom CSS styles
 }
 
 /* manager page */
-.manager-box {
+.group-box {
     width: 820px;
     margin: 50px auto;
 }
 
-.manager-box-title {
+.group-box-title {
     margin: 20px 0 40px;
 }
 
-.manager-box-items li{
+.group-box-items li{
     float: left;
     width: 244px;
     text-align: center;
     list-style: none;
 }
 
-.manager-box-items li em{
+.group-box-items li em{
     display: inline-block;
 }
 
-.manager-box-items li .title{
+.group-box-items li .title{
     color: #55ACEE;
     font-size: 1.3em;
     padding: 32px 0 5px;
 }
 
-.manager-box-items .manager2 li{
+.group-box-items .manager2 li{
     width: 388px;
 }
-.manager-box-items .manager3 li {
+.group-box-items .manager3 li {
     width: 810px;
+}
+.group-box-items .service2 li {
+    width: 180px;
 }
