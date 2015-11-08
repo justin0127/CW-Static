@@ -45,7 +45,7 @@ File Description: Place here your custom CSS styles
 /* manager page */
 .group-box {
     width: 820px;
-    margin: 50px auto;
+    margin: 50px auto 250px;
 }
 
 .group-box-title {
@@ -77,4 +77,33 @@ File Description: Place here your custom CSS styles
 }
 .group-box-items .service2 li {
     width: 180px;
+}
+.group-box-items .service4 li {
+    width: 810px;
+}
+#instruction {
+    height: 800px;
+    width: 300px;
+    padding: 20px 5px;
+    background-color: rgba(237, 237, 237, 0.5);
+    position: absolute;
+    top: 3845px;
+    right: 0px;
+}
+
+#instruction.affix {
+    top: 91px;
+    position: fixed;
+}
+#instruction.affix-bottom {
+    position: absolute;
+}
+#instruction .instruction-icon {
+    margin: 40px auto;
+}
+#instruction img {
+    margin: 0 auto;
+}
+#instruction .info {
+    text-align: center;
 }
