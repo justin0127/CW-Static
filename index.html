@@ -117,7 +117,13 @@
 													</ul>
 												</li>
 												<li><a href="#clients">司机招募</a></li>
-												<li><a href="#contact">联系我们</a></li>
+												<li class="dropdown">
+													<a href="#" class="dropdown-toggle" data-toggle="dropdown">关于我们 <span class="caret"></span></a>
+													<ul class="dropdown-menu" role="menu">
+														<li><a href="#introduction">公司简介</a></li>
+														<li><a href="#contact">联系我们</a></li>
+													</ul>
+												</li>
 											</ul>
 										</div>
 
@@ -301,98 +307,38 @@
                 <div class="row">
                     <div class="col-md-12">
                         <h1 id="driver" class="title text-center">我开车</h1>
-						<div class="item-container row grid-space-20">
-							<div class="col-sm-6 col-md-3 isotope-item web-design">
-								<div class="image-box">
-									<div class="overlay-container">
-										<img src="images/portfolio-1.jpg" alt="">
-										<a class="overlay" data-toggle="modal" data-target="#driver-1">
-											<i class="fa fa-search-plus"></i>
-											<span>自主创业</span>
-										</a>
-									</div>
-									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#driver-1">自主创业</a>
+						<div class="row">
+							<div class="group-box">
+								<div class="group-box-title">
+									<img src="images/driver_1_0.png" />
 								</div>
-								<!-- Modal -->
-								<div class="modal fade" id="driver-1" tabindex="-1" role="dialog" aria-labelledby="driver-1-label" aria-hidden="true">
-									<div class="modal-dialog modal-lg">
-										<div class="modal-content">
-											<div class="modal-header">
-												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-												<h4 class="modal-title" id="driver-1-label">自主创业</h4>
+								<div class="group-box-items">
+									<ul class="driver1">
+										<li>
+											<div class="pic"><em><img src="images/driver_1_1.png"></em></div>
+											<div class="title">自主创业</div>
+											<div class="info">
+												开自己的车，赚更多的钱
 											</div>
-											<div class="modal-body">
+										</li>
+										<li>
+											<div class="pic"><em><img src="images/driver_1_2.png"></em></div>
+											<div class="title">业务保障</div>
+											<div class="info">
+												海量订单，长期合同，只需安心开好车
 											</div>
-											<div class="modal-footer">
-												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+										</li>
+										<li>
+											<div class="pic"><em><img src="images/driver_1_3.png"></em></div>
+											<div class="title">集采、结算透明化</div>
+											<div class="info">
+												购车购险享受集采价格，与业务方直接结算
 											</div>
-										</div>
-									</div>
+										</li>
+									</ul>
+									<div class="clearfix"></div>
 								</div>
-								<!-- Modal end -->
 							</div>
-
-							<div class="col-sm-6 col-md-3 isotope-item web-design">
-								<div class="image-box">
-									<div class="overlay-container">
-										<img src="images/portfolio-2.jpg" alt="">
-										<a class="overlay" data-toggle="modal" data-target="#driver-2">
-											<i class="fa fa-search-plus"></i>
-											<span>业务保障</span>
-										</a>
-									</div>
-									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#driver-2">业务保障</a>
-								</div>
-								<!-- Modal -->
-								<div class="modal fade" id="driver-2" tabindex="-1" role="dialog" aria-labelledby="driver-2-label" aria-hidden="true">
-									<div class="modal-dialog modal-lg">
-										<div class="modal-content">
-											<div class="modal-header">
-												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-												<h4 class="modal-title" id="driver-2-label">业务保障</h4>
-											</div>
-											<div class="modal-body">
-											</div>
-											<div class="modal-footer">
-												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- Modal end -->
-							</div>
-
-
-							<div class="col-sm-6 col-md-3 isotope-item web-design">
-								<div class="image-box">
-									<div class="overlay-container">
-										<img src="images/portfolio-3.jpg" alt="">
-										<a class="overlay" data-toggle="modal" data-target="#driver-3">
-											<i class="fa fa-search-plus"></i>
-											<span>集采、结算透明化</span>
-										</a>
-									</div>
-									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#driver-3">集采、结算透明化</a>
-								</div>
-								<!-- Modal -->
-								<div class="modal fade" id="driver-3" tabindex="-1" role="dialog" aria-labelledby="driver-3-label" aria-hidden="true">
-									<div class="modal-dialog modal-lg">
-										<div class="modal-content">
-											<div class="modal-header">
-												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-												<h4 class="modal-title" id="driver-3-label">集采、结算透明化</h4>
-											</div>
-											<div class="modal-body">
-											</div>
-											<div class="modal-footer">
-												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- Modal end -->
-							</div>
-
 						</div>
                     </div>
                 </div>
@@ -571,7 +517,7 @@
 			<div class="container object-non-visible" data-animation-effect="fadeIn">
 				<h1 id="clients" class="title text-center">司机招募</h1>
 				<div class="space"></div>
-				<div class="row" style="min-height: 500px;">
+				<div class="row row-client">
 					<div class="col-md-4">
 					</div>
 					<div class="col-md-8">
@@ -584,14 +530,9 @@
 				<div class="container">
 					<div class="list-horizontal">
 						<div class="row">
-							<div class="col-xs-2">
-								<div class="list-horizontal-item">
-									<img src="images/client-6.png" alt="client">
-								</div>
-							</div>
 							<div class="col-xs-10">
 								<div class="list-horizontal-item">
-									<h2>联系电话：021-54800257</h2>
+									<h2><i class="fa fa-phone pr-10"></i>联系电话：021-54800257</h2>
 								</div>
 							</div>
 						</div>
@@ -608,52 +549,34 @@
 
 			<!-- .footer start -->
 			<!-- ================ -->
-			<div class="footer section">
+			<div class="footer section translucent-bg bg-image-1">
+				<div class="container container-introduction">
+					<h1 class="title text-center" id="introduction">公司简介</h1>
+					<div class="space"></div>
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="footer-content">
+								<p class="large">
+									辰午科技是一个互联网供应链平台，通过互联网技术，为用车方以及驾驶员搭建供需透明化的平台，解决用车方在干线运输环节上的痛点、降低管理和经营成本，同时为广大驾驶员提高安全、稳定和收入的保障，从而提升公路产业链的整体运行效率。
+									<br/><br/>
+									辰午科技成立于2012年9月，经过两年多的市场调研和数据分析，于2015年8月制定了全新的战略规划，致力于打造融合数据、金融、流量、服务等综合性信息闭环。
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
 				<div class="container">
 					<h1 class="title text-center" id="contact">联系我们</h1>
 					<div class="space"></div>
 					<div class="row">
 						<div class="col-sm-6">
 							<div class="footer-content">
-								<p class="large">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel nam magnam natus tempora cumque, aliquam deleniti voluptatibus voluptas. Repellat vel, et itaque commodi iste ab, laudantium voluptas deserunt nobis.</p>
 								<ul class="list-icons">
-									<li><i class="fa fa-map-marker pr-10"></i> One infinity loop, 54100</li>
-									<li><i class="fa fa-phone pr-10"></i> +00 1234567890</li>
-									<li><i class="fa fa-fax pr-10"></i> +00 1234567891 </li>
-									<li><i class="fa fa-envelope-o pr-10"></i> your@email.com</li>
+									<li><i class="fa"></i>总部－上海</li>
+									<li><i class="fa fa-phone pr-10"></i> 联系方式：021-54800257</li>
+									<li><i class="fa fa-map-marker pr-10"></i> 地址：上海市闵行区中春路8923号欧莱雅商务中心A座406</li>
+									<!--<li><i class="fa fa-envelope-o pr-10"></i> your@email.com</li>-->
 								</ul>
-								<ul class="social-links">
-									<li class="facebook"><a target="_blank" href="https://www.facebook.com/pages/HtmlCoder/714570988650168"><i class="fa fa-facebook"></i></a></li>
-									<li class="twitter"><a target="_blank" href="https://twitter.com/HtmlcoderMe"><i class="fa fa-twitter"></i></a></li>
-									<li class="googleplus"><a target="_blank" href="http://plus.google.com"><i class="fa fa-google-plus"></i></a></li>
-									<li class="skype"><a target="_blank" href="http://www.skype.com"><i class="fa fa-skype"></i></a></li>
-									<li class="linkedin"><a target="_blank" href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
-									<li class="youtube"><a target="_blank" href="http://www.youtube.com"><i class="fa fa-youtube"></i></a></li>
-									<li class="flickr"><a target="_blank" href="http://www.flickr.com"><i class="fa fa-flickr"></i></a></li>
-									<li class="pinterest"><a target="_blank" href="http://www.pinterest.com"><i class="fa fa-pinterest"></i></a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-sm-6">
-							<div class="footer-content">
-								<form role="form" id="footer-form">
-									<div class="form-group has-feedback">
-										<label class="sr-only" for="name2">Name</label>
-										<input type="text" class="form-control" id="name2" placeholder="Name" name="name2" required>
-										<i class="fa fa-user form-control-feedback"></i>
-									</div>
-									<div class="form-group has-feedback">
-										<label class="sr-only" for="email2">Email address</label>
-										<input type="email" class="form-control" id="email2" placeholder="Enter email" name="email2" required>
-										<i class="fa fa-envelope form-control-feedback"></i>
-									</div>
-									<div class="form-group has-feedback">
-										<label class="sr-only" for="message2">Message</label>
-										<textarea class="form-control" rows="8" id="message2" placeholder="Message" name="message2" required></textarea>
-										<i class="fa fa-pencil form-control-feedback"></i>
-									</div>
-									<input type="submit" value="Send" class="btn btn-default">
-								</form>
 							</div>
 						</div>
 					</div>

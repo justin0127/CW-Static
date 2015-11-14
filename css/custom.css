@@ -54,7 +54,7 @@ File Description: Place here your custom CSS styles
 
 .group-box-items li{
     float: left;
-    width: 244px;
+    width: 260px;
     text-align: center;
     list-style: none;
 }
@@ -106,4 +106,10 @@ File Description: Place here your custom CSS styles
 }
 #instruction .info {
     text-align: center;
+}
+#section-client .row-client {
+    min-height: 450px;
+}
+.container-introduction {
+    min-height: 450px;
 }
