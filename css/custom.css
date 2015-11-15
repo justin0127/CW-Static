@@ -52,6 +52,10 @@ File Description: Place here your custom CSS styles
     margin: 20px 0 40px;
 }
 
+.group-box-items ul {
+    padding-left: 0px;
+}
+
 .group-box-items li{
     float: left;
     width: 260px;
@@ -81,7 +85,7 @@ File Description: Place here your custom CSS styles
     padding: 20px 5px;
     background-color: rgba(237, 237, 237, 0.5);
     position: absolute;
-    top: 1100px;
+    top: 1037px;
     right: 0px;
     z-index: 1;
 }
@@ -93,7 +97,7 @@ File Description: Place here your custom CSS styles
     transition: all 0.3s ease-in-out;
 }
 #manager-nav.affix {
-    top: 67px;
+    top: 47px;
     position: fixed;
 }
 #manager-nav.affix-bottom {
@@ -143,7 +147,7 @@ File Description: Place here your custom CSS styles
     padding: 20px 5px;
     background-color: rgba(237, 237, 237, 0.5);
     position: absolute;
-    top: 3845px;
+    top: 3623px;
     right: 0px;
 }
 
