@@ -75,6 +75,62 @@ File Description: Place here your custom CSS styles
 .group-box-items .manager3 li {
     width: 810px;
 }
+#manager-nav {
+    height: 300px;
+    width: 300px;
+    padding: 20px 5px;
+    background-color: rgba(237, 237, 237, 0.5);
+    position: absolute;
+    top: 1100px;
+    right: 0px;
+    z-index: 1;
+}
+#manager-nav a {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+#manager-nav.affix {
+    top: 67px;
+    position: fixed;
+}
+#manager-nav.affix-bottom {
+    position: absolute;
+}
+
+/* sidebar */
+.bs-docs-sidebar {
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* all links */
+.bs-docs-sidebar .nav>li>a {
+    color: #999;
+    border-left: 2px solid transparent;
+    padding: 20px 20px 20px 30px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* active & hover links */
+.bs-docs-sidebar .nav>.active>a,
+.bs-docs-sidebar .nav>li>a:hover{
+    color: #55acee;
+    text-decoration: none;
+    background-color: transparent;
+    border-left-color: #55acee;
+}
+/* all active links */
+.bs-docs-sidebar .nav>.active>a,
+.bs-docs-sidebar .nav>.active:hover>a,
+.bs-docs-sidebar .nav>.active:focus>a {
+    font-weight: 700;
+}
+
 .group-box-items .service2 li {
     width: 180px;
 }
@@ -92,7 +148,7 @@ File Description: Place here your custom CSS styles
 }
 
 #instruction.affix {
-    top: 91px;
+    top: 67px;
     position: fixed;
 }
 #instruction.affix-bottom {

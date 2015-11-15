@@ -121,7 +121,7 @@ blockquote {
 .header {
 	color: #ffffff;
 	background-color: rgba(144, 164, 208, 0.5);
-	padding: 10px 0;
+	padding: 10px 0 0px;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
@@ -501,7 +501,7 @@ textarea {
 ----------------------------------------------------------------------------- */
 .fixed-header-on .header {
 	background-color: rgba(50, 154, 234, 0.95);
-	padding: 5px 0;
+	padding: 5px 0 0px;
 }
 .fixed-header-on .site-name {
 	font-size: 24px;
@@ -693,7 +693,7 @@ textarea {
 	left: 50%;
 	top: 50%;
 	font-size: 18px;
-	line-height: 1x;
+	line-height: 1px;
 	color: #ffffff;
 	margin-top: -8px;
 	margin-left: -8px;
