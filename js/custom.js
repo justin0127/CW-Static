@@ -3,7 +3,7 @@ $(function () {
   $('#instruction').affix({
     offset: {
       top: 3243,
-      bottom: 1800
+      bottom: 1600
     }
   });
 

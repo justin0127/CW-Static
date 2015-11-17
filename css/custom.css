@@ -45,7 +45,7 @@ File Description: Place here your custom CSS styles
 /* manager page */
 .group-box {
     width: 820px;
-    margin: 50px auto 200px;
+    margin: 50px auto 150px;
 }
 
 .group-box-title {
@@ -171,5 +171,5 @@ File Description: Place here your custom CSS styles
     min-height: 450px;
 }
 .container-introduction {
-    min-height: 350px;
+    min-height: 300px;
 }
