@@ -2,15 +2,15 @@ $(function () {
 
   $('#instruction').affix({
     offset: {
-      top: 3532,
+      top: 3243,
       bottom: 1800
     }
   });
 
   $('#manager-nav').affix({
     offset: {
-      top: 957,
-      bottom: 5500
+      top: 1020,
+      bottom: 5000
     }
   });
 
