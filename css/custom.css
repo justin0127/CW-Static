@@ -181,6 +181,14 @@ File Description: Place here your custom CSS styles
     h2 {
         font-size: 18px;
     }
+    h5 {
+        font-size: 14px;
+        font-weight: normal;
+        color: #3c3c3c;
+    }
+    .panel-body h5 {
+        padding-left: 20px;
+    }
 
     body {
         background-color: #17223C;
@@ -210,6 +218,10 @@ File Description: Place here your custom CSS styles
 
     #contact {
         margin-top: 60px;
+    }
+
+    .mobile-box {
+        padding: 20px;
     }
 
 }
