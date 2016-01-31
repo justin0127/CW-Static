@@ -173,3 +173,43 @@ File Description: Place here your custom CSS styles
 .container-introduction {
     min-height: 300px;
 }
+
+@media (max-width:767px) {
+    h1 {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+
+    body {
+        background-color: #17223C;
+    }
+
+    .banner {
+        height: 250px;
+        margin-top: 61px;
+    }
+    .banner-image {
+        min-height: 250px;
+    }
+
+    .carousel-caption {
+        bottom: 20%;
+    }
+    .carousel-caption h1 {
+        font-size: 20px;
+    }
+    .carousel-caption h1 span{
+        font-size: 24px;
+    }
+
+    .bg-image-2 {
+        background: url("../images/bg-image-2.jpg") 9% 0px no-repeat;
+    }
+
+    #contact {
+        margin-top: 60px;
+    }
+
+}
