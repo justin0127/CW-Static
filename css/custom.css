@@ -213,7 +213,11 @@ File Description: Place here your custom CSS styles
     }
 
     .bg-image-2 {
-        background: url("../images/bg-image-2.jpg") 9% 0px no-repeat;
+        background: url("../images/bg-image-2.jpg") 9% -100px no-repeat;
+    }
+
+    .bg-image-2>.container:first-child {
+        height: 450px;
     }
 
     #contact {
@@ -222,6 +226,10 @@ File Description: Place here your custom CSS styles
 
     .mobile-box {
         padding: 20px;
+    }
+
+    .section {
+        padding: 40px 0;
     }
 
 }
