@@ -213,7 +213,7 @@ File Description: Place here your custom CSS styles
     }
 
     .bg-image-2 {
-        background: url("../images/bg-image-2.jpg") 9% -100px no-repeat;
+        background: url("../images/bg-image-2.jpg") 9.4% -100px no-repeat;
     }
 
     .bg-image-2>.container:first-child {
