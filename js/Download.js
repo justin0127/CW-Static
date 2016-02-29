@@ -10,8 +10,8 @@ var Download = function (tp, tp2) {
         /*scheme:必须*/
         scheme_IOS: 'hdchuozhu://',
         scheme_Adr: 'hdchuozhu://android',
-        download_iosurl: "https://itunes.apple.com/cn/app/id996949637",
-        download_adrurl: "http://m.hdc56.com/qiyeapp/hdc_huozhu.apk",//"http://dd.myapp.com/16891/68AB4081D861B96B4FCB87AD8D08B9F2.apk?fsname=com.hdc56.enterprise_2.1_241.apk",
+        download_iosurl: "https://itunes.apple.com/cn/app/chen-wu/id1078870344",
+        download_adrurl: "http://www.top-cw.com/download/chenwu_portal_signed_1.0.apk",
         timeout: 600
     };
     /*司机版*/
@@ -19,8 +19,8 @@ var Download = function (tp, tp2) {
         /*scheme:必须*/
         scheme_IOS: 'hdcdriver://',
         scheme_Adr: 'hdcdriver://android',
-        download_iosurl: "https://itunes.apple.com/cn/app/hao-duo-che/id992010086",
-        download_adrurl: "http://m.hdc56.com/sijiapp/haoduoche.apk",//"http://dd.myapp.com/16891/45A108B64AAD2023169396A4BF1EB4A0.apk?fsname=com.e6gps.gps_4.2.3_49.apk",
+        download_iosurl: "https://itunes.apple.com/cn/app/chen-wu/id1078870344",
+        download_adrurl: "http://www.top-cw.com/download/chenwu_portal_signed_1.0.apk",
         timeout: 600
     };
 
