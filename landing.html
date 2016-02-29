@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <title>辰午APP下载</title>
+    <style type="text/css">
+        html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, em, img, input, q, b, dl, dt, dd, ol, ul, li, form, label, canvas {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            -webkit-user-select: none;
+            -webkit-touch-callout: none;
+        }
+
+        body {
+            background-color: #fff;
+            font-size-adjust: none;
+            text-align: center;
+            margin: 0 auto;
+            font-family: 'Microsoft YaHei',arial,sans-serif,'Droid Sans Fallback';
+            -webkit-tap-highlight-color: rgba(0,0,0,0);
+            -webkit-user-select: none;
+            font-size: 14px;
+        }
+
+        .main {
+            margin: 0 12%;
+            color: #888;
+        }
+
+        .header {
+            padding: 12% 0 12%;
+        }
+
+        .logo img {
+            width: 112px;
+        }
+
+        .h1 {
+            color: #ff8a01;
+            margin-top: -10px;
+            font-size: 1.8em;
+            letter-spacing: 2px;
+            position: relative;
+            left: 2px;
+        }
+
+        .version {
+            color: #fafafd;
+            position: relative;
+            line-height: 0;
+            top: 3px;
+            height: 10px;
+            line-height: 16px;
+            font-size: 10px;
+        }
+
+            .version span {
+                background-color: #c0c0c0;
+                border-radius: 2px;
+                padding: 2px 3px;
+                background-clip: padding-box;
+                position: relative;
+                left: 28%;
+            }
+
+        .h2 {
+            font-size: 1.3em;
+            letter-spacing: 1px;
+        }
+
+        a {
+            display: inline-block;
+            width: 53px;
+            height: 53px;
+            margin: 9px 13% 6px;
+            text-decoration: none;
+            color: #888;
+            -webkit-tap-highlight-color: rgba(255,25,0,0.3);
+        }
+
+            a span {
+                display: inline-block;
+                white-space: nowrap;
+                position: relative;
+                top: 56px;
+                left: -10px;
+                font-size: .85em;
+            }
+
+            a.ios {
+                background: url("./images/ios.png") no-repeat;
+                background-size: 53px 53px;
+            }
+
+        .ios span {
+            left: -3px;
+        }
+
+        a.android {
+            background: url("./images/android.png") no-repeat;
+            background-size: 53px 53px;
+        }
+
+        .footer {
+            height: 45px;
+            line-height: 45px;
+            background-color: #e9e9e9;
+            box-sizing: border-box;
+            font-size: .86em;
+            color: #7b7b7b;
+            text-align: center;
+            width: 100%;
+            bottom: 0;
+            position: absolute;
+        }
+
+        #downloadTip {
+            display: none;
+            background: #FFF url(./images/guide.png) no-repeat 92% 4px;
+            position: absolute;
+            top: 0;
+            right: 0px;
+            text-align: left;
+            padding: 2%;
+            width: 96%;
+            font-size: 16px;
+            line-height: 2em;
+        }
+
+            #downloadTip * {
+                text-align: left;
+            }
+
+            #downloadTip .spe {
+                color: #00ACF3;
+            }
+
+        .close {
+            background: url(./images/close.png) no-repeat center center;
+            display: inline-block;
+            width: 21px;
+            height: 21px;
+        }
+
+        #downloadTip .textRight {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="main" id="divContent">
+        <div class="header">
+            <div class="logo">
+                <img src="./images/512.png" style="height: 112px; width: 112px;" alt="辰午logo">
+            </div>
+            <p class="version"></p>
+            <p class="h1">辰午APP</p>
+            <!-- <p class="h2">货主版</p> -->
+        </div>
+        <div class="content">
+            <a href="https://itunes.apple.com/cn/app/chen-wu/id1078870344" onclick="Download(1,2);return false;" class="ios"><span>ios版下载</span></a>
+            <!--<a href="javascript:void(0);" onclick="checkIosDown(this);return false;" class="ios"><span>即将上线...</span></a>-->
+            <a href="http://www.top-cw.com/download/chenwu_portal_signed_1.0.apk" class="android" onclick="Download(1,1);return false;"><span>安卓手机下载</span></a>
+        </div>
+    </div>
+    <div class="footer" id="div-footer">
+        Copyright © 2015 辰午™ 沪ICP备15051191号
+    </div>
+    <div id="downloadTip" onclick="closePan()">
+        <p>我很努力，但是无奈微信不让下载</p>
+        <p>别担心，点击<span class="spe">右上角</span></p>
+        <p>选择“<span class="spe">在浏览器中打开</span>”就能下载啦~~</p>
+        <p class="textRight"><a class="close"></a></p>
+    </div>
+    <script src="./js/Download.js"></script>
+
+
+
+</body><div></div><div></div></html>
